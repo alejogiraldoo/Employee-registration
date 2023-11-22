@@ -1,0 +1,52 @@
+/* Style sheet */
+*{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    margin: 30px 0;
+}
+
+form > *{
+    display: block;
+    font-size: 1rem;
+}
+
+label{
+    text-align: center;
+}
+
+label,button{
+    font-weight: bold;
+}
+
+input,button{
+    margin: 15px auto;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+input{
+    width: 80%;
+    max-width: 350px;
+}
+
+button{
+    width: 85%;
+    max-width: 370px;
+    padding: 10px;
+    background-color: rgba(137, 43, 226, 0.773);
+}
+
+button:hover{
+    background-color: rgb(120, 29, 205);
+}
+
+button:first-of-type{
+    margin-top: 30px;
+}
